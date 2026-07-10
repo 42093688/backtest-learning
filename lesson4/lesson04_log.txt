@@ -1,0 +1,130 @@
+============================================================
+开始多次随机回测
+============================================================
+
+  第 1/10 轮，随机种子=1000
+   good: 最终资产=108,171.15，收益率=8.17%，回撤=5.22%
+   bad: 最终资产=100,000.00，收益率=0.00%，回撤=0.00%
+
+  第 2/10 轮，随机种子=1001
+   good: 最终资产=101,647.63，收益率=1.65%，回撤=6.00%
+   bad: 最终资产=100,000.00，收益率=0.00%，回撤=0.00%
+
+  第 3/10 轮，随机种子=1002
+   good: 最终资产=92,392.84，收益率=-7.61%，回撤=7.97%
+   bad: 最终资产=100,000.00，收益率=0.00%，回撤=0.00%
+
+  第 4/10 轮，随机种子=1003
+   good: 最终资产=99,097.19，收益率=-0.90%，回撤=3.18%
+   bad: 最终资产=100,000.00，收益率=0.00%，回撤=0.00%
+
+  第 5/10 轮，随机种子=1004
+   good: 最终资产=106,544.48，收益率=6.54%，回撤=3.48%
+   bad: 最终资产=100,000.00，收益率=0.00%，回撤=0.00%
+
+  第 6/10 轮，随机种子=1005
+   good: 最终资产=106,256.96，收益率=6.26%，回撤=0.82%
+   bad: 最终资产=100,000.00，收益率=0.00%，回撤=0.00%
+
+  第 7/10 轮，随机种子=1006
+   good: 最终资产=101,928.29，收益率=1.93%，回撤=0.95%
+   bad: 最终资产=100,000.00，收益率=0.00%，回撤=0.00%
+
+  第 8/10 轮，随机种子=1007
+   good: 最终资产=110,235.83，收益率=10.24%，回撤=2.03%
+   bad: 最终资产=100,000.00，收益率=0.00%，回撤=0.00%
+
+  第 9/10 轮，随机种子=1008
+   good: 最终资产=96,776.10，收益率=-3.22%，回撤=5.27%
+   bad: 最终资产=100,000.00，收益率=0.00%，回撤=0.00%
+
+  第 10/10 轮，随机种子=1009
+   good: 最终资产=103,789.12，收益率=3.79%，回撤=0.37%
+   bad: 最终资产=100,000.00，收益率=0.00%，回撤=0.00%
+汇总结果图已保存: /Users/apple/backtest-learning/lesson4/summary_results_plot.png
+📄 CSV 汇总表已保存: /Users/apple/backtest-learning/lesson4/multi_run_summary.csv
+📄 CSV 每轮结果已保存: /Users/apple/backtest-learning/lesson4/multi_run_results.csv Excel 汇总表已保存: /Users/apple/backtest-learning/lesson4/multi_run_summary.xlsx Excel 每轮结果已保存: /Users/apple/backtest-learning/lesson4/multi_run_results.xlsx
+
+============================================================
+开始策略参数网格搜索
+============================================================
+[1/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=-6.72%
+[2/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=-1.48%
+[3/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=3.08%
+[4/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=9.28%
+[5/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=4.09%
+[6/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=8.61%
+[7/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=11.04%
+[8/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=6.55%
+[9/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=16.05%
+[10/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=8.56%
+[11/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=6.97%
+[12/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=7.00%
+[13/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=9.35%
+[14/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=18.19%
+[15/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=6.99%
+[16/64] params={'roe_buy': 0.12, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=3.47%
+[17/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=15.39%
+[18/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=4.05%
+[19/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=10.19%
+[20/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=0.00%
+[21/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=12.32%
+[22/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=2.97%
+[23/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=17.65%
+[24/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=5.73%
+[25/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=8.61%
+[26/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=8.36%
+[27/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=10.45%
+[28/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=-1.20%
+[29/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=15.33%
+[30/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=-9.69%
+[31/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=5.79%
+[32/64] params={'roe_buy': 0.12, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=9.18%
+[33/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=0.90%
+[34/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=5.07%
+[35/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=10.90%
+[36/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=20.31%
+[37/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=5.83%
+[38/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=7.75%
+[39/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=0.90%
+[40/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=16.85%
+[41/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=-4.07%
+[42/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=11.15%
+[43/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=6.07%
+[44/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=-11.19%
+[45/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=12.84%
+[46/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=17.50%
+[47/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=6.01%
+[48/64] params={'roe_buy': 0.15, 'pe_buy': 12, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=14.59%
+[49/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=11.27%
+[50/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=12.44%
+[51/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=1.89%
+[52/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=-2.32%
+[53/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=13.73%
+[54/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=12.36%
+[55/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=0.60%
+[56/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.4, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=10.58%
+[57/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=14.11%
+[58/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=10.07%
+[59/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=-4.67%
+[60/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.08, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=7.93%
+[61/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=7.91%
+[62/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 25, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=15.09%
+[63/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.55, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=8.83%
+[64/64] params={'roe_buy': 0.15, 'pe_buy': 15, 'debt_buy': 0.5, 'roe_sell': 0.1, 'pe_sell': 30, 'debt_sell': 0.6, 'max_position_pct': 0.2, 'stop_loss_pct': 0.08, 'take_profit_pct': 0.12} -> 收益率=0.37%
+
+  最优参数组合：
+ roe_buy  pe_buy  debt_buy  roe_sell  pe_sell  debt_sell  return_pct  max_drawdown  total_trades
+    0.15      12       0.4      0.08       30       0.60   20.305449      0.522264            15
+    0.12      12       0.5      0.10       25       0.60   18.190112      0.095450            12
+    0.12      15       0.4      0.10       30       0.55   17.645946      1.026202            15
+    0.15      12       0.5      0.10       25       0.60   17.495382      1.924632            11
+    0.15      12       0.4      0.10       30       0.60   16.854167      0.208801            19
+    0.12      12       0.5      0.08       25       0.55   16.050962      0.447750            19
+    0.12      15       0.4      0.08       25       0.55   15.394628      1.058746            16
+    0.12      15       0.5      0.10       25       0.55   15.329070      0.626881            16
+    0.15      15       0.5      0.10       25       0.60   15.086495      0.857040            12
+    0.15      12       0.5      0.10       30       0.60   14.591246      0.000000            20
+
+  所有结果已生成完毕！
+   输出目录: /Users/apple/backtest-learning/lesson4
