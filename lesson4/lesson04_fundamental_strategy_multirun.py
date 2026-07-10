@@ -268,8 +268,8 @@ def save_tables(results_df, summary_df):
 
     summary_df.to_csv(csv_summary, index=False)
     results_df.to_csv(csv_results, index=False)
-    print(f"📄 CSV 汇总表已保存: {csv_summary}")
-    print(f"📄 CSV 每轮结果已保存: {csv_results}")
+    print(f"CSV 汇总表已保存: {csv_summary}")
+    print(f"CSV 每轮结果已保存: {csv_results}")
 
     try:
         summary_df.to_excel(xlsx_summary, index=False, sheet_name='summary')
